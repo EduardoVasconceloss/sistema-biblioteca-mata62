@@ -39,6 +39,7 @@ A arquitetura do sistema foi projetada para ser modular e extensível, com uma c
 ```
 biblioteca-MATA62/
 ├── pom.xml
+├── README.md
 └── src/
     └── main/
         └── java/
@@ -50,15 +51,29 @@ biblioteca-MATA62/
                     └── domain/
                         ├── commands/
                         │   ├── Comando.java
-                        │   └── ... (outros comandos)
+                        │   ├── ComandoConsultarLivro.java
+                        │   ├── ComandoConsultarNotificacoes.java
+                        │   ├── ComandoConsultarUsuario.java
+                        │   ├── ComandoDevolver.java
+                        │   ├── ComandoEmprestar.java
+                        │   ├── ComandoObservar.class
+                        │   └── ComandoReservar.class
                         ├── models/
                         │   ├── Usuario.java
-                        │   └── ... (outros modelos)
+                        │   ├── AlunoGraduacao.class
+                        │   ├── AlunoPosgraduacao.class
+                        │   ├── Emprestimo.class
+                        │   ├── Exemplar.class
+                        │   ├── Livro.class
+                        │   ├── Professor.class
+                        │   └── Reserva.class
                         ├── repository/
                         │   └── Repositorio.java
                         └── strategies/
                             ├── RegraEmprestimo.java
-                            └── ... (outras regras)
+                            ├── RegraEmprestimoAluno.class
+                            ├── RegraEmprestimoException.class
+                            └── RegraEmprestimoProfessor.class
 ```
 
 ## Pré-requisitos

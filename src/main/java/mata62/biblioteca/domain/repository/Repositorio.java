@@ -6,10 +6,6 @@ import java.util.Map;
 import mata62.biblioteca.domain.models.Livro;
 import mata62.biblioteca.domain.models.Usuario;
 
-/**
- * Essa classe utiliza o Padrão de Projeto Singleton para garantir que exista
- * apenas uma instância dela em todo o sistema.
- */
 public final class Repositorio {
 
     private static final Repositorio instance = new Repositorio();

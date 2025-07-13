@@ -3,10 +3,6 @@ package mata62.biblioteca.domain.models;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Representa um livro no acervo da biblioteca.
- * Esta classe também atua como 'Subject' (ou 'Observable') no padrão Observer.
- */
 public class Livro {
     
     private String codigo;
@@ -68,7 +64,6 @@ public class Livro {
      */
     public void adicionarReserva(Reserva reserva) {
         this.reservas.add(reserva);
-        // Regra de notificação: notificar quando o livro atingir mais de duas reservas
         if (this.reservas.size() > 2) { // 
             notificarObservadores();
         }

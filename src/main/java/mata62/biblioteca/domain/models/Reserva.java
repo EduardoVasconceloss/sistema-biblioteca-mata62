@@ -2,9 +2,6 @@ package mata62.biblioteca.domain.models;
 
 import java.time.LocalDate;
 
-/**
- * Modela a operação de reserva de um livro por um usuário.
- */
 public class Reserva {
     
     private Usuario usuario;

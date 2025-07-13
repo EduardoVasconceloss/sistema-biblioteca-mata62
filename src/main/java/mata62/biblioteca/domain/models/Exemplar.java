@@ -1,8 +1,5 @@
 package mata62.biblioteca.domain.models;
 
-/**
- * Representa um exemplar específico de um livro.
- */
 public class Exemplar {
     
     private String codigoExemplar;

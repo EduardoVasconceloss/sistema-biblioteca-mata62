@@ -4,11 +4,6 @@ import mata62.biblioteca.domain.strategies.RegraEmprestimo;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Representa a base para todos os usuários da biblioteca.
- * Como um usuário é sempre de um tipo específico (Graduação, Pós, Professor),
- * esta classe é abstrata.
- */
 public abstract class Usuario {
 
     private String codigo; // 

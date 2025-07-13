@@ -2,9 +2,6 @@ package mata62.biblioteca.domain.models;
 
 import java.time.LocalDate;
 
-/**
- * Modela a operação de empréstimo de um exemplar para um usuário.
- */
 public class Emprestimo {
 
     private Usuario usuario;
